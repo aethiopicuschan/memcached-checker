@@ -110,9 +110,9 @@ func benchmark(cmd *cobra.Command, args []string) (err error) {
 	avgGetLatency := totalGetLatency / time.Duration(count)
 	avgDelLatency := totalDelLatency / time.Duration(count)
 
-	setQPS := float64(count) / totalTime.Seconds()
-	getQPS := float64(count) / totalTime.Seconds()
-	delQPS := float64(count) / totalTime.Seconds()
+	setQPS := float64(count) / totalSetLatency.Seconds()
+	getQPS := float64(count) / totalGetLatency.Seconds()
+	delQPS := float64(count) / totalDelLatency.Seconds()
 
 	fmt.Println("------ Benchmark Result ------")
 	fmt.Printf("Total time: %v\n", totalTime)
