@@ -4,6 +4,8 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/aethiopicuschan/memcached-checker)](https://goreportcard.com/report/github.com/aethiopicuschan/memcached-checker)
 [![CI](https://github.com/aethiopicuschan/memcached-checker/actions/workflows/ci.yaml/badge.svg)](https://github.com/aethiopicuschan/memcached-checker/actions/workflows/ci.yaml)
 
+**Use [memtier_benchmar](https://github.com/RedisLabs/memtier_benchmark) !**
+
 Tools to verify the operation of memcached and its compatible servers.
 
 ## Installation
